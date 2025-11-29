@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Food Tracker",
+    "slug": "food-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.foodtracker.app"
+    },
+    "android": {
+      "package": "com.foodtracker.app",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Food Tracker to access your camera to take photos of food."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "mediaLibraryPermission": "Allow Food Tracker to access your photos to select food images."
+        }
+      ]
+    ]
+  }
+}
+

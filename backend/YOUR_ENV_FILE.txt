@@ -1,0 +1,19 @@
+# Copy the contents below and create a file named ".env" in the backend folder
+
+# JWT Settings
+SECRET_KEY=my-food-tracker-secret-key-2024
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=1440
+
+# Supabase
+SUPABASE_URL=https://hgnumllndwwhpzfvcemf.supabase.co
+SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnbnVtbGxuZHd3aHB6ZnZjZW1mIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQzODU4NDYsImV4cCI6MjA3OTk2MTg0Nn0.jfqLqcqVDV_ULYh65crddiv08bPPzLwaYpNn_jBs3Yo
+SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnbnVtbGxuZHd3aHB6ZnZjZW1mIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2NDM4NTg0NiwiZXhwIjoyMDc5OTYxODQ2fQ.PVmHVxXCIbIwM1iOKAmfaYk6FOTIYPARflPj6cnpFEw
+
+# HuggingFace (Optional - leave empty for now)
+HUGGINGFACE_API_KEY=
+HUGGINGFACE_MODEL_API=https://api-inference.huggingface.co/models/nutritious/food-classification
+
+# CORS
+CORS_ORIGINS=http://localhost:3000,exp://localhost:8081
+
